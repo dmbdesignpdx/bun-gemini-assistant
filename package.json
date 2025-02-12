@@ -1,0 +1,19 @@
+{
+  "name": "bun-gemini",
+  "version": "1.0.0",
+  "description": "A simple demo of an AI-powered Bun program using Gemini as an assistant.",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun run index"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0"
+  }
+}
